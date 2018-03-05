@@ -1,0 +1,59 @@
+label: "Frontend"
+status: "done"
+icon: "check"
+children: 
+
+  - label: "Presentation"
+    status: "done"
+    icon: "check"
+    children:
+
+    - label: "HTML"
+      children:
+
+      - label: "Navigation"
+      - label: "Semantics"
+      - label: "Input"
+
+    - label: "CSS"
+      status: "active"
+      icon: "ellipsis"
+      children:
+
+      - label: "Layout"
+      - label: "Positioning"
+      - label: "Styling"
+
+  - label: "Scripting"
+    children:
+
+    - label: "Javascript"
+      children:
+
+      - label: "Variables"
+        children:
+
+        - label: "Functions"
+          children:
+
+          - label: "Events"
+            children:
+
+            - label: "DOM"
+
+          - label: "Async"
+          - label: "Classes"
+
+          - label: "Pure Functions"
+            children:
+
+              - label: "Unit Testing"
+
+
+        - label: "Collections"
+          children:
+
+          - label: "Loops"
+          - label: "Observables"
+          - label: "Proxies"
+          - label: "Immutability"

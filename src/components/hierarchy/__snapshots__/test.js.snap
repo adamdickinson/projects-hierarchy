@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hierarchy component should render 1`] = `"<svg class=\\"hierarchy\\" viewBox=\\"-100 -100 300 200\\" width=\\"100%\\" height=\\"100%\\"><g><circle class cx=\\"50\\" cy=\\"0\\" r=\\"20\\"></circle><text x=\\"50\\" y=\\"0\\" dy=\\"35\\">Sample</text></g></svg>"`;
+
+exports[`Hierarchy component should render many nodes 1`] = `"<svg class=\\"hierarchy\\" viewBox=\\"-100 -100 400 300\\" width=\\"100%\\" height=\\"100%\\"><line x1=\\"100\\" x2=\\"50\\" y1=\\"0\\" y2=\\"100\\"></line><line x1=\\"100\\" x2=\\"150\\" y1=\\"0\\" y2=\\"100\\"></line><g><circle class cx=\\"100\\" cy=\\"0\\" r=\\"20\\"></circle><text x=\\"100\\" y=\\"0\\" dy=\\"35\\">Sample</text></g><g><circle class cx=\\"50\\" cy=\\"100\\" r=\\"20\\"></circle><text x=\\"50\\" y=\\"100\\" dy=\\"35\\">Example</text></g><g><circle class cx=\\"150\\" cy=\\"100\\" r=\\"20\\"></circle><text x=\\"150\\" y=\\"100\\" dy=\\"35\\">Test</text></g></svg>"`;
+
+exports[`Hierarchy component should render with icon and as clickable 1`] = `"<svg class=\\"hierarchy\\" viewBox=\\"-100 -100 300 200\\" width=\\"100%\\" height=\\"100%\\"><g><circle class=\\"clickable\\" cx=\\"50\\" cy=\\"0\\" r=\\"20\\"></circle><text x=\\"50\\" y=\\"0\\" dy=\\"35\\">Sample</text>icon</g></svg>"`;

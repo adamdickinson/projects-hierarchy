@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,700')
+
+
+
+body
+  margin 0
+  padding 0
+
+textarea
+  background #263238
+  border none
+  box-sizing border-box
+  color #ECEFF1
+  display block
+  float left
+  font-family Hack
+  font-size 12px
+  height 100vh
+  line-height 1.75
+  margin 0
+  outline none
+  padding 2rem
+  resize none
+  width 400px
+
+.hierarchy-wrap
+  overflow hidden
+  height 100vh
+
+.hierarchy
+  background #161B1D 
+  color #B0BEC5
+  display block
+
+  circle
+    fill #161B1D 
+    stroke #B0BEC5
+    stroke-width 4
+
+    &.clickable
+      cursor pointer
+
+  line
+    stroke #B0BEC5
+    stroke-opacity 0.2
+    stroke-width 2
+
+    &.active
+      stroke #69F0AE
+      stroke-dasharray 10, 5
+      stroke-opacity 0.7
+
+    &.done
+      stroke #00BFA5
+      stroke-opacity 0.5
+      stroke-width: 4
+
+  text
+    fill #B0BEC5
+    font-family Hind
+    font-size 8px
+    font-weight bold
+    letter-spacing: 0.25em
+    text-anchor middle
+    text-transform uppercase
+
+  .active
+
+    svg
+      fill #69F0AE
+    
+    circle
+      stroke #69F0AE
+
+    text
+      fill #69F0AE
+
+  .done
+
+    svg
+      fill #161B1D
+    
+    circle
+      fill #00BFA5
+      stroke #00BFA5
+
+    text
+      fill #00BFA5
